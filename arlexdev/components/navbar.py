@@ -37,22 +37,19 @@ def navbar() -> rx.Component:
                     align="center",
                     spacing="5",
                 ),
-                rx.hstack(
-                    rx.button(
-                        "Descargar CV",
-                        size="2",
-                        on_click=lambda: rx.redirect(
-                            "https://drive.google.com/file/d/1rUfGukE_9E6QNw5qU6WADHo_Qjk34PQL/view?usp=sharing", is_external=True),
-                        background_color="#FFFFFF",
-                        border="1px solid #2A2A2A",
-                        color="#000000",
-                        _hover={"opacity": "0.8"},
-                        #_hover={
-                        #    "background_color": "#111111",
-                        #    "color": "#FFFFFF"
-                        #}
-                    ),
-                    justify="end",
+                rx.button(
+                    "Descargar CV",
+                    size="2",
+                    on_click=lambda: rx.redirect(
+                        "https://drive.google.com/file/d/1rUfGukE_9E6QNw5qU6WADHo_Qjk34PQL/view?usp=sharing", is_external=True),
+                    background_color="#FFFFFF",
+                    border="1px solid #2A2A2A",
+                    color="#000000",
+                    _hover={"opacity": "0.8"},
+                    #_hover={
+                    #    "background_color": "#111111",
+                    #    "color": "#FFFFFF"
+                    #},
                 ),
                 justify="between",
                 align_items="center",

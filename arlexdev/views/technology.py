@@ -34,7 +34,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -51,7 +51,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -68,7 +68,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -85,7 +85,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -102,7 +102,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -119,7 +119,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -136,7 +136,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -153,7 +153,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -170,7 +170,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -187,7 +187,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -204,7 +204,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -221,7 +221,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                       # bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -238,7 +238,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -255,7 +255,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     rx.box(
@@ -272,7 +272,7 @@ def technology() -> rx.Component:
                         ),
                         border="1px solid #2A2A2A",
                         border_radius="8px",
-                        #bg="#111111",
+                        bg="#090909",
                         padding="20px",
                     ),
                     gap="1rem",

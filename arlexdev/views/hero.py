@@ -4,28 +4,27 @@ from ..styles import styles
 def hero() -> rx.Component:
     return rx.box(
         # Fondo decorativo
-        #rx.box(
-        #        position="absolute",
-        #        top="0",
-        #        left="0",
-        #        right="0",
-        #        bottom="0",
-        #    background="linear-gradient(to right, #262626 1px, transparent 1px), linear-gradient(to bottom, #262626 1px, transparent 1px)",
-        #    background_size="40px 40px",
-        #    z_index="0"
-        #),
-        #rx.box(
-        #    position="absolute",
-        #    top="0",
-        #    left="0",
-        #    right="0",
-        #    bottom="0",
-        #    background_color="black",
-        #    mask_image="radial-gradient(ellipse at center, transparent 20%, black)",
-        #    webkit_mask_image="radial-gradient(ellipse at center, transparent 20%, black)",
-        #    z_index="0"
-        #),
-
+        rx.box(
+                position="absolute",
+                top="0",
+                left="0",
+                right="0",
+                bottom="0",
+            background="linear-gradient(to right, #2A2A2A 1px, transparent 1px), linear-gradient(to bottom, #2A2A2A 1px, transparent 1px)",
+            background_size="40px 40px",
+            z_index="0"
+        ),
+        rx.box(
+            position="absolute",
+            top="0",
+            left="0",
+            right="0",
+            bottom="0",
+            background_color="black",
+            mask_image="radial-gradient(ellipse at center, transparent 20%, black)",
+            webkit_mask_image="radial-gradient(ellipse at center, transparent 20%, black)",
+            z_index="0"
+        ),
         rx.center(
             rx.section(
                 rx.vstack(
@@ -130,7 +129,7 @@ def hero() -> rx.Component:
                                 background_color="#000000",
                                 border="1px solid #2A2A2A",
                                 _hover={
-                                    "background_color": "#111111",
+                                    "background_color": "#090909",
                                     "color": "#FFFFFF"
                                 }
                             ),

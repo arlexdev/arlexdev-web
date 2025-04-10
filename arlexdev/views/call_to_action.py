@@ -24,7 +24,7 @@ def call_to_action() -> rx.Component:
                         rx.icon("mail", size=65),
                         rx.text("Construyamos algo genial juntos. ¿Te animas a empezar?",size="8",align="center"),
                         rx.button(
-                            rx.text("Contáctame", size="4"),
+                            rx.text("contacta conmigo", size="4"),
                             on_click=lambda: rx.redirect("https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=arlexdev@gmail.com", is_external=True),
                             size="4",
                             background_color="#FFFFFF",
@@ -45,7 +45,7 @@ def call_to_action() -> rx.Component:
                     border="1px solid #2A2A2A",
                     border_radius="12px",
                     width="100%",
-                    #background_color=rx.color("gray", 1)
+                    bg="#090909"
                 ),
                 margin=rx.breakpoints(
                     initial="1.5em",

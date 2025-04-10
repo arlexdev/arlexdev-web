@@ -138,7 +138,7 @@ def footer() -> rx.Component:
                 ),
                 style=styles.max_width_style,
             ),
-            bg="#000000",
+            bg="#090909",
             #bg="#111111",
             width="100%",
         ),

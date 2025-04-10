@@ -56,7 +56,7 @@ def about() -> rx.Component:
                     border="1px solid #2A2A2A",
                     border_radius="12px",
                     width="100%",
-                    #bg="#111111"
+                    bg="#090909"
                 ),
                 margin=rx.breakpoints(
                     initial="1.5em",

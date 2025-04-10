@@ -35,7 +35,7 @@ def experience() -> rx.Component:
                             width="100%",
                         ),
                         rx.vstack(
-                            rx.text("Founder | Software Developer",size="5",weight="bold"),
+                            rx.text("Freelance Full Stack Developer",size="5",weight="bold"),
                             rx.cond(
                                 "Feb. 2024 - actualidad" != "",
                                 rx.badge("Feb. 2024 - Actualidad",
@@ -62,7 +62,7 @@ def experience() -> rx.Component:
                     border="1px solid #2A2A2A",
                     border_radius="12px",
                     width="100%",
-                    #bg="#111111"
+                    bg="#090909"
                 ),
                 rx.box(
                     rx.vstack(
@@ -115,7 +115,7 @@ def experience() -> rx.Component:
                     border="1px solid #2A2A2A",
                     border_radius="12px",
                     width="100%",
-                    #bg="#111111"
+                    bg="#090909"
                 ),
                 margin=rx.breakpoints(
                     initial="1.5em",
