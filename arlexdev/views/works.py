@@ -104,7 +104,7 @@ def works() -> rx.Component:
                                         lg="4"
                                         ),
                                     ),
-                                    on_click=lambda: rx.redirect("/project_ED", is_external=False),
+                                    on_click=lambda: rx.redirect("/project_ed", is_external=False),
                                     size=rx.breakpoints(
                                         initial="3",
                                         sm="4",

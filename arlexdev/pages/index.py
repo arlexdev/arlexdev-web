@@ -30,5 +30,5 @@ def index() -> rx.Component:
                 width="100%"
             ),
             color="white",
-            background_color="black",
+            bg="#000000",
         )
