@@ -50,7 +50,7 @@ def clients() -> rx.Component:
                         border="1px solid #2A2A2A",
                         border_radius="12px",
                         width="100%",
-                        bg="#090909"
+                        bg="#060606"
                     ),
                     rx.box(
                         rx.vstack(
@@ -86,7 +86,7 @@ def clients() -> rx.Component:
                         border="1px solid #2A2A2A",
                         border_radius="12px",
                         width="100%",
-                        bg="#090909"
+                        bg="#060606"
                     ),
                     gap="1rem",
                     grid_template_columns=[

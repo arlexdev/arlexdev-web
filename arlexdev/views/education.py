@@ -61,7 +61,7 @@ def education() -> rx.Component:
                     border="1px solid #2A2A2A",
                     border_radius="12px",
                     width="100%",
-                    bg="#090909"
+                    bg="#060606"
                 ),
                 rx.box(
                     rx.vstack(
@@ -106,7 +106,7 @@ def education() -> rx.Component:
                     border="1px solid #2A2A2A",
                     border_radius="12px",
                     width="100%",
-                    bg="#090909"
+                    bg="#060606"
                 ),
                 rx.box(
                     rx.vstack(
@@ -151,7 +151,7 @@ def education() -> rx.Component:
                     border="1px solid #2A2A2A",
                     border_radius="12px",
                     width="100%",
-                    bg="#090909"
+                    bg="#060606"
                 ),
                 margin=rx.breakpoints(
                     initial="1.5em",

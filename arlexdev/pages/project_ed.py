@@ -26,7 +26,7 @@ def imagen_con_descripcion(imagen_src: str, titulo: str, descripcion: str) -> rx
         border="1px solid #2A2A2A",
         border_radius="12px",
         width="100%",
-        bg="#090909",
+        bg="#060606",
     )
 
 def galeria_imagenes() -> rx.Component:
@@ -128,7 +128,7 @@ def caracteristica_detallada(titulo: str, descripcion: str, detalles: list) -> r
         border="1px solid #2A2A2A",
         border_radius="12px",
         width="100%",
-        bg="#090909",
+        bg="#060606",
     )
 
 
@@ -341,7 +341,7 @@ def project_ed() -> rx.Component:
                             border="1px solid #2A2A2A",
                             border_radius="12px",
                             width="100%",
-                            bg="#090909",
+                            bg="#060606",
                         ),
                         rx.container(
                             rx.text("Este sistema representa una solución moderna y eficiente para la gestión integral de miembros de la iglesia, combinando funcionalidad con facilidad de uso.",size="4",align="center"),

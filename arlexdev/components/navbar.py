@@ -126,7 +126,7 @@ def navbar() -> rx.Component:
                             width="100%",
                             left="0",
                             top="2em",
-                            background_color="#111111"
+                            background_color="#060606"
                         ),
                         width="100%"
                     ),
