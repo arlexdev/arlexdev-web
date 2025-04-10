@@ -153,7 +153,7 @@ def hero() -> rx.Component:
                     justify="center",
                     align="center"
                 ),
-                padding_top="4rem",
+                padding_top="5rem",
                 style=styles.max_width_style,
                 width="100%",
                 size="2"
