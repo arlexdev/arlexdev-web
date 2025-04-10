@@ -14,7 +14,7 @@ def imagen_con_descripcion(imagen_src: str, titulo: str, descripcion: str) -> rx
                 loading="lazy",
             ),
             rx.heading(titulo, size="5",weight="bold"),
-            rx.text(descripcion),
+            rx.text(descripcion,color_scheme="gray"),
             spacing="4",
             align="start",
         ),
@@ -171,7 +171,8 @@ def project_ed() -> rx.Component:
                         ),
                         rx.text(
                             "Plataforma web moderna desarrollada para optimizar la administración y seguimiento de miembros de la iglesia, integrando tecnologías de geolocalización y gestión de datos.",
-                            size="4"
+                            size="4",
+                            color_scheme="gray"
                         ),
                         rx.image(
                             src="/project_1.webp",
@@ -344,7 +345,8 @@ def project_ed() -> rx.Component:
                             bg="#060606",
                         ),
                         rx.container(
-                            rx.text("Este sistema representa una solución moderna y eficiente para la gestión integral de miembros de la iglesia, combinando funcionalidad con facilidad de uso.",size="4",align="center"),
+                            rx.text("Este sistema representa una solución moderna y eficiente para la gestión integral de miembros de la iglesia, combinando funcionalidad con facilidad de uso.",size="4",align="center",
+                                color_scheme="gray"),
                         ),
                         align="center",
                         spacing="6",
