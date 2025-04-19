@@ -5,14 +5,15 @@ def hero() -> rx.Component:
     return rx.box(
         # Fondo decorativo
         rx.box(
-                position="absolute",
-                top="0",
-                left="0",
-                right="0",
-                bottom="0",
+            position="absolute",
+            top="0",
+            left="0",
+            right="0",
+            bottom="0",
             background="linear-gradient(to right, #2A2A2A 1px, transparent 1px), linear-gradient(to bottom, #2A2A2A 1px, transparent 1px)",
-            background_size="40px 40px",
-            z_index="0"
+            background_size="50px 50px",
+            z_index="0",
+            #opacity=".8"
         ),
         rx.box(
             position="absolute",
@@ -21,9 +22,9 @@ def hero() -> rx.Component:
             right="0",
             bottom="0",
             background_color="black",
-            mask_image="radial-gradient(ellipse at center, transparent 20%, black)",
-            webkit_mask_image="radial-gradient(ellipse at center, transparent 20%, black)",
-            z_index="0"
+            mask_image="radial-gradient(ellipse at center, transparent 10%, black)",
+            webkit_mask_image="radial-gradient(ellipse at center, transparent 10%, black)",
+            z_index="0",
         ),
         rx.center(
             rx.section(
@@ -100,7 +101,7 @@ def hero() -> rx.Component:
                                     lg="4"
                                     ),
                                 ),
-                                on_click=lambda: rx.redirect("https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=arlexdev@gmail.com", is_external=True),
+                                on_click=lambda: rx.redirect("mailto:arlexdev@gmail.com", is_external=True),
                                 size=rx.breakpoints(
                                     initial="3",
                                     sm="4",
